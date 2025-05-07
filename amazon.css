@@ -1,0 +1,555 @@
+/* navbar */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.navbar{
+    height: 62px;
+    width: auto;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nev-logo{
+    height: 35px;
+    width: 102px;
+    align-items: center;
+}
+
+.nev-logo2{
+    height: 30px;
+    width: 99px;
+    background-image: url(AMZN_BIG.D\ \(1\).png);
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav-address{
+    height: 50px;
+    width: 100px;
+    color: white;
+    text-transform: capitalize;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+    
+}
+.deliveri{
+    margin-left: 10px;
+    color: darkgray;
+    font-size: 0.8rem;
+}
+.nav-address1{
+    height: 40px;
+    width: 600px;
+    display: flex;
+    border: 3px solid  transparent;
+
+}
+.select{
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 70px;
+    background-color: darkgray;
+
+}
+.search1{
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.search-logo{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 136, 24);
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.nav-address1:hover{
+    border: 3px solid rgb(227, 149, 3);
+    border-radius: 8px;
+}
+.lang
+{
+    height: 35px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+}
+.flag{
+    height: 20px;
+    width: 30px;
+    background-image: url(download_flage-removebg-preview.png);
+    background-size: cover;
+}
+#eng{
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    width: 45px;
+    font-size: medium;
+}
+.account{
+    height: 50px;
+    width: 140px;
+    align-items: center;
+    color: #ffffff;
+}
+.hello{
+    font-size: 0.8rem;
+}
+.accouninfo{
+    font-size: 1.2rem;
+}
+.info{
+    height: 50px;
+    width: 80px;
+    color: #ffffff;
+}
+.return{
+    font-size: 0.8rem;
+}
+.order{
+    font-size: 1.2rem;
+}
+.cart{
+    height: 50px;
+    width: 100px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+#cart{
+    font-size: 1.5rem;
+}
+
+/* navabar-2 */
+.navbar-2{
+    height: 40px;
+    width: auto;
+    background-color: rgb(18, 34, 55);
+    display: flex;
+    align-items: center;
+}
+.meneu{
+    height: 35px;
+    width: 60px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.All{
+margin-left: 8px;
+font-size: 1.2rem;
+}
+.tool{
+    margin-left: 5px;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.fersh{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 15px;
+}
+.lunch{
+    height: 35px;
+    width: 460px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+}
+#fresh{
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+}
+.nav-address1 > select{
+    text-transform: capitalize;
+    
+}
+.nav-address1 select > option{
+    background-color: #ffffff;
+}
+.langun #eng > option{
+    color: #0f1111;
+}
+/* Main cantent */
+.background{
+    height: 600px;
+    width: auto;
+    background-image: url(frist\ background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.content, .content1, .content2, .content3{
+    height: 420px;
+    width: 310px;
+    background-color: #ffffff;
+    margin-top: 300px;
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.shedow:hover{
+    box-shadow: 0px 0px 10px black;
+    
+}    
+.content > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 200px;
+    left: 105px;
+    color: white;
+    text-shadow: 0px 0px 3px red;  
+}
+.content1 h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 111px;
+    color: white;
+    text-shadow: 0px 0px 3px red; 
+}
+.content2 > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 122.5px;
+    color: white;
+    text-shadow: 0px 0px 3px red;
+}
+.content3 > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 33px;
+    color: white;
+    text-shadow: 0px 0px 3px red;
+    font-size: 30px;
+}
+.planbg{
+    width: 100%;
+    height: 1200px;
+    background-image: linear-gradient(to bottom, #ba8661, #B5C0D0,#E1F0DA,#ffffff);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.content4,.content5,.content6,.content7{
+    height: 420px;
+    width: 310px;
+    background-color: #ffffff;
+    margin-top: 200px;
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.content8,.content9,.content10,.content11{
+    height: 420px;
+    width: 310px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+.item{
+    width: 112px;
+    height: 160px;
+    margin: 10px;
+}
+.item > img{
+    width: 112px;
+    height: 160px;
+}
+.content4 > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 100px;
+    color: white;
+    text-shadow: 0px 0px 3px red;
+    font-size: 30px;
+}
+.content5 > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 116px;
+    color: white;
+    text-shadow: 0px 0px 3px red;
+    font-size: 30px;
+}
+.content6 > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 110px;
+    color: white;
+    text-shadow: 0px 0px 3px red;
+    font-size: 30px;
+}
+.content7 > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 75px;
+    color: white;
+    text-shadow: 0px 0px 3px red;
+    font-size: 30px;
+}
+.content8 > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 110px;
+    color: white;
+    text-shadow: 0px 0px 3px red;
+    font-size: 30px;
+}
+.content9 > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 96.63px;
+    color: white;
+    text-shadow: 0px 0px 3px red;
+    font-size: 30px;
+}
+.content10 > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 103.5px;
+    color: white;
+    text-shadow: 0px 0px 3px red;
+    font-size: 30px;
+}
+.content11 > h1{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 192px;
+    left: 110px;
+    color: white;
+    text-shadow: 0px 0px 3px red;
+    font-size: 30px;
+}
+.mainend{
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#sing1{
+    height: 30px;
+    width: 240px;
+    background-color: rgb(249, 182, 47);
+    color: #0f1111;
+    border: none; 
+    border-radius: 7px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.sing{
+    display: flex;
+    width: 240px;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+.start{
+    text-decoration: none;
+}
+.sing > a:link{
+    color: #005362;
+}
+.sing > a:active{
+    color: red;
+}
+.sing > a:visited{
+    color: #005362;
+}
+/* footer */
+.footermain{
+    width: auto;
+    height: 700px;
+    background-color: #232f3e;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.backtop{
+    height: 50px;
+    width: 100%;
+    background-color:  rgb(18, 34, 55);
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer1, .footer2, .footer3,.footer4{
+    height: 250px;
+    width: auto;
+    margin-top: 90px;
+    color: #ffffff;
+}
+.footermain ul > li{
+    list-style: none;
+    padding: 5px;
+
+}
+.footermain ul  li > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footermain div > h2{
+    margin-bottom: 10px;
+}
+.footermain ul >li:hover{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #ffffff;
+}
+.footermid{
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-lang{
+    height: 70px;
+    width: auto;
+    margin-right: 10px;
+}
+.logo-lang a > img{
+    height: 60px;
+}
+.langen{
+    height: 40px;
+    width: 150px;
+    border: 1.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.langen > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.langen > select{
+    background-color: #232f3e;
+    border: none;
+    width: 10px;
+}
+.contry{
+    height: 80px;
+    width: 1200px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contry > li{
+    list-style: none;
+    margin: 10px;
+}
+.contry li > a{
+    text-decoration: none;   
+    color: white;
+}
+.footermain .contry > li:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 1.5px;
+}
+.lastitem{
+    height: 300px;
+    width: 100%;
+    padding-top: 5px;
+    background-color: #131a22;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 150px;
+    color: #ffffff;
+    font-size: 0.9rem;
+    position: relative;
+}
+.last0{
+    height: 60px;
+    width: 100%;
+    background-color: #131a22;
+    display: flex;
+    justify-content: center;
+}
+.last{
+    height: 60px;
+    width: 450px;
+    background-color: #131a22;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
+.last li{
+    list-style: none;
+    color: #ffffff;
+}
+
